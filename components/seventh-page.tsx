@@ -7,7 +7,7 @@ export type SeventhPageType = {
 const SeventhPage: NextPage<SeventhPageType> = ({ className = "" }) => {
   return (
     <div
-      className={`flex-1 rounded-lg bg-black overflow-hidden flex flex-row items-start justify-start pt-[156px] px-[77px] pb-[232px] box-border relative max-w-full z-[8] text-left text-29xl text-white font-clash-display mq750:pt-[101px] mq750:px-[38px] mq750:pb-[151px] mq750:box-border ${className}`}
+      className={`mq1050:hidden flex-1 rounded-lg bg-black overflow-hidden flex flex-row items-start justify-start pt-[156px] px-[77px] pb-[232px] box-border relative max-w-full z-[8] text-left text-29xl text-white font-clash-display mq750:pt-[101px] mq750:px-[38px] mq750:pb-[151px] mq750:box-border ${className}`}
     >
       <h1 className="m-0 relative text-inherit leading-[48px] capitalize font-bold font-inherit z-[1] mq450:text-10xl mq450:leading-[29px] mq1050:text-19xl mq1050:leading-[38px]">
         ready to get started?

@@ -19,7 +19,12 @@ const AppLandingPage: NextPage = () => {
       <TestimonialComponent />
       <FAQComponent />
       <div className="w-[1090px] mx-auto flex flex-row items-start justify-start pt-0 px-0 pb-10 box-border max-w-full z-20">
-        <img src="image.png" className="w-11/12 mq1050:w-full mq1050:h-5/6 mq1050:pl-0" alt="" />
+        <SeventhPage />
+        <img
+          src="image.png"
+          className="mq1050:w-full w-0 mq1050:h-5/6 mq1050:pl-0"
+          alt=""
+        />
       </div>
       <Main />
       <div className="w-[1091px] mx-auto flex flex-col items-end justify-start gap-[92px] max-w-full lg:gap-[46px] mq750:gap-[23px]">
