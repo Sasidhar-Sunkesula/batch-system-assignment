@@ -48,19 +48,19 @@ export function Main() {
       <div className="absolute top-[188px] left-[823px] w-[442px] h-[645px]">
         <div className="absolute top-[0px] left-[0px] rounded-lg w-full h-full flex items-center justify-center">
           <img
-            className="w-full h-full object-contain absolute left-[88px] top-[-2px] [transform:scale(1.401)]"
+            className="w-full h-full object-contain absolute left-[88px] top-[-80px] [transform:scale(1.401)]"
             alt=""
             src="/frame-1@2x.png"
           />
         </div>
         <img
-          className="absolute top-[5px] left-[70px] w-[371.8px] h-[552.4px] object-contain z-[9]"
+          className="absolute top-[-50px] left-[60px] w-[371.8px] h-[552.4px] object-contain z-[9]"
           alt=""
           src="/iphone13profront@2x.png"
         />
       </div>
       <img
-        className="absolute top-[116px] left-[771px] w-[371.3px] h-[551.6px] object-contain z-[10]"
+        className="absolute top-[90px] left-[800px] w-[371.3px] h-[551.6px] object-contain z-[10]"
         alt=""
         src="/iphone13profront-1@2x.png"
       />

@@ -11,7 +11,7 @@ import { Main } from "../components/Main";
 
 const AppLandingPage: NextPage = () => {
   return (
-    <div className="w-full relative rounded-[50px] bg-white overflow-hidden flex flex-col items-start justify-start pt-10 pb-[41.3px] pr-[25px] pl-[175px] box-border gap-[80px] leading-[normal] tracking-[normal] text-left text-lg text-black font-clash-display mq750:gap-[57px] mq750:px-[10px] mq750:box-border mq450:gap-[29px] mq450:pl-5 mq450:box-border">
+    <div className="w-full relative rounded-[50px] bg-white overflow-hidden flex flex-col items-start justify-start pt-10 pb-[41.3px] pr-[25px] pl-[175px] box-border gap-[60px] leading-[normal] tracking-[normal] text-left text-lg text-black font-clash-display mq750:gap-[57px] mq750:px-[10px] mq750:box-border mq450:gap-[29px] mq450:pl-5 mq450:box-border">
       <FrameComponent3 />
       <FrameComponent2 />
       <FrameComponent1 />

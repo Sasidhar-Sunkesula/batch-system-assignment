@@ -12,7 +12,7 @@ const FrameComponent3: NextPage<FrameComponent3Type> = ({ className = "" }) => {
       <div className=" flex flex-col md:flex-row items-center justify-between gap-[20px] max-w-full">
         <div className="flex flex-col items-center justify-start px-0 pb-0 box-border max-w-full">
           <div className="self-stretch flex flex-row items-center justify-start gap-[40px] max-w-full mq450:gap-[20px]">
-            <div className="flex items-center justify-start px-0 pb-0">
+            <div className="flex cursor-pointer items-center justify-start px-0 pb-0">
               <img
                 className="w-[34px] h-[34px] z-[8]"
                 loading="lazy"
@@ -30,16 +30,16 @@ const FrameComponent3: NextPage<FrameComponent3Type> = ({ className = "" }) => {
               </b>
             </div>
             <nav className="m-0 flex-1 flex flex-row flex-wrap items-center justify-start gap-[24px] max-w-full text-left text-xl text-black font-clash-display">
-              <a className="[text-decoration:none] relative leading-[26px] capitalize font-bold text-tomato inline-block min-w-[60px] z-[8]">
+              <a className="[text-decoration:none] cursor-pointer relative leading-[26px] capitalize font-bold text-tomato inline-block min-w-[60px] z-[8]">
                 home
               </a>
-              <a className="[text-decoration:none] flex-1 relative leading-[26px] capitalize font-medium text-[inherit] inline-block min-w-[89px] whitespace-nowrap z-[8]">
+              <a className="[text-decoration:none] cursor-pointer flex-1 relative leading-[26px] capitalize font-medium text-[inherit] inline-block min-w-[89px] whitespace-nowrap z-[8]">
                 about us
               </a>
-              <a className="[text-decoration:none] relative leading-[26px] capitalize font-medium text-[inherit] inline-block min-w-[68px] z-[8]">
+              <a className="[text-decoration:none] cursor-pointer relative leading-[26px] capitalize font-medium text-[inherit] inline-block min-w-[68px] z-[8]">
                 pricing
               </a>
-              <a className="[text-decoration:none] flex-1 relative leading-[26px] capitalize font-medium text-[inherit] inline-block min-w-[89px] z-[8]">
+              <a className="[text-decoration:none] cursor-pointer flex-1 relative leading-[26px] capitalize font-medium text-[inherit] inline-block min-w-[89px] z-[8]">
                 features
               </a>
             </nav>
