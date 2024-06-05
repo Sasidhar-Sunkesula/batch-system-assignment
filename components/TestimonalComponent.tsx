@@ -1,6 +1,6 @@
 export function TestimonialComponent() {
   return (
-    <div data-animate-on-scroll className="self-stretch animate-fadeIn animate-pop mx-auto flex flex-row items-start justify-center pt-0 pb-[129px] pr-0 pl-[168px] box-border max-w-full mq750:box-border mq450:pb-[55px] mq1050:pl-0 mq750:pl-0 mq450:box-border mq1050:pb-[84px] mq1050:box-border">
+    <div data-animate-on-scroll className="self-stretch mx-auto flex flex-row items-start justify-center pt-0 pb-[129px] pr-0 pl-[168px] box-border max-w-full mq750:box-border mq450:pb-[55px] mq1050:pl-0 mq750:pl-0 mq450:box-border mq1050:pb-[84px] mq1050:box-border">
       <div className="w-[772px] mq1050:w-full flex flex-col items-start justify-start gap-[88px] max-w-full mq450:gap-[22px] mq1050:gap-[44px]">
         <div className="w-[455px] flex flex-col items-end justify-start pt-0 px-0 pb-[37px] mq1050:pb-[20px] box-border gap-[4px] mq1050:gap-y-3 max-w-full text-center">
           <div className="self-stretch flex flex-row items-start justify-center py-0 pr-5 pl-[21px]">
