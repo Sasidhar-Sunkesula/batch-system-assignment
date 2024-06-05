@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap");
+@font-face {
+  font-family: "Clash Display";
+  src: url("/ClashDisplayRegular.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Clash Display";
+  src: url("/ClashDisplayMedium.otf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Clash Display";
+  src: url("/ClashDisplaySemibold.otf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Clash Display";
+  src: url("/ClashDisplayBold.otf");
+  font-weight: 700;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply leading-[normal] m-0;
+}
+*,
+::before,
+::after {
+  border-width: 0;
+}
