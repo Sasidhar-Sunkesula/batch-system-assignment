@@ -1,6 +1,7 @@
 
   # BatchSystem-Assignment - Deployed Link: (https://batch-system-assignment-66ie.vercel.app/)
 
+  ## This project is built using Next.js, TypeScript, tailwindcss
   Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
 
   To preview and run the project on your device:
