@@ -18,12 +18,6 @@ export function Main() {
           src="/group-35897.svg"
         />
       </div>
-      {/* <img
-        className="absolute top-[761px] left-[454px] rounded-lg w-64 h-[71px]"
-        alt=""
-        src="/rectangle-4.svg"
-      /> */}
-      {/* <BadgeComponent /> */}
       <div className="absolute top-[131px] left-[915px] w-[457.2px] h-[717.1px] flex items-center justify-center">
         <img
           className="w-full h-full object-contain absolute left-[3px] top-[24px] [transform:scale(1.24)]"
@@ -45,11 +39,6 @@ export function Main() {
         alt=""
         src="/rectangle@2x.png"
       />
-      {/* <img
-        className="absolute top-[462px] left-[395px] w-[29px] h-[29px] z-[8]"
-        alt=""
-        src="/group-3.svg"
-      /> */}
       <img
         className="absolute top-[116px] left-[46px] w-[67.9px] h-[67.9px] object-contain z-[8]"
         loading="lazy"
@@ -75,18 +64,6 @@ export function Main() {
         alt=""
         src="/iphone13profront-1@2x.png"
       />
-      {/* <img
-        className="absolute top-[58.2px] left-[215.4px] w-[65.8px] h-[29.3px] z-[8]"
-        loading="lazy"
-        alt=""
-        src="/vector-11.svg"
-      /> */}
-      {/* <img
-        className="absolute top-[53px] left-[175px] w-[34px] h-[34px] overflow-hidden z-[8]"
-        loading="lazy"
-        alt=""
-        src="/frame.svg"
-      /> */}
       <img
         className="absolute top-[3534.7px] left-[823px] w-10 h-10 object-contain z-[8]"
         loading="lazy"
@@ -128,7 +105,7 @@ export function Main() {
             src="/group-1000002356-1.svg"
           />
         </div>
-        <div className="absolute top-[0px] left-[0px] w-full h-full flex items-center justify-center">
+        <div className="absolute top-[0px] mq1050:my-11 left-[0px] w-full h-full flex items-center justify-center">
           <img
             className="mq1050:w-7/12 object-contain absolute mq1050:-left-16 top-[6px] mq1050:top-[90px] [transform:scale(1.03)]"
             alt=""
@@ -171,42 +148,6 @@ export function Main() {
         alt=""
         src="/star-2.svg"
       />
-      {/* <img
-          className="absolute top-[1890px] left-[175px] w-12 h-12 z-[8]"
-          loading="lazy"
-          alt=""
-          src="/group-35899-1.svg"
-        /> */}
-      {/* <img
-          className="absolute top-[2472px] left-[715px] w-12 h-12 z-[8]"
-          loading="lazy"
-          alt=""
-          src="/group-35899-2.svg"
-        /> */}
-      {/* <img
-          className="absolute top-[5439.7px] left-[175px] w-[34px] h-[34px] overflow-hidden z-[8]"
-          loading="lazy"
-          alt=""
-          src="/frame.svg"
-        />
-        <img
-          className="absolute top-[5444.9px] left-[215.4px] w-[65.8px] h-[29.3px] z-[8]"
-          loading="lazy"
-          alt=""
-          src="/vector-11.svg"
-        />
-        <img
-          className="absolute top-[5490.7px] left-[175px] w-6 h-6 overflow-hidden z-[8]"
-          loading="lazy"
-          alt=""
-          src="/frame-2.svg"
-        />
-        <img
-          className="absolute top-[5532.7px] left-[175px] w-6 h-6 overflow-hidden z-[8]"
-          loading="lazy"
-          alt=""
-          src="/frame-3.svg"
-        /> */}
     </main>
   );
 }

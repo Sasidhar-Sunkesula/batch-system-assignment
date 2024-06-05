@@ -46,7 +46,7 @@ const FrameComponent3: NextPage<FrameComponent3Type> = ({ className = "" }) => {
           </div>
         </div>
       </div>
-      <button className="cursor-pointer mq1050:mt-8 w-[180px] mx-auto md:w-auto [border:none] py-4 px-[46px] bg-black rounded flex flex-row items-start justify-start z-30 hover:bg-darkslategray">
+      <button className="cursor-pointer mq1050:mt-8 w-[180px] [border:none] py-4 px-[46px] bg-black rounded flex flex-row items-start justify-end mq1050:mx-auto z-30 hover:bg-darkslategray">
         <div className="h-[60px] w-[180px] relative rounded bg-black hidden" />
         <a className="[text-decoration:none] relative text-lg leading-[28px] capitalize font-medium font-clash-display text-white text-left inline-block min-w-[88px] z-[1]">
           download

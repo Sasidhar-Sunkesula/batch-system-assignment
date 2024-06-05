@@ -17,7 +17,7 @@ export function TestimonialComponent() {
             <h3 className="m-0 mq1050:pt-[350px] self-stretch relative text-inherit leading-[28px] capitalize font-semibold font-inherit z-[8] mq450:text-3xl mq450:leading-[22px]">
               the best financial accounting app ever!
             </h3>
-            <blockquote className="m-0 self-stretch relative text-lg leading-[28px] capitalize font-medium text-gray-500 z-[8]">
+            <blockquote className="m-0 self-stretch relative text-lg leading-[28px] capitalize font-medium text-gray-500 z-30">
               “Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
               ultricies. In ultrices malesuada elit mauris etiam odio. Duis
               tristique lacus, et blandit viverra nisl velit. Sed mattis
