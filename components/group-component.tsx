@@ -6,7 +6,7 @@ export type GroupComponentType = {
 
 const BadgeComponent: NextPage<GroupComponentType> = ({ className = "" }) => {
   return (
-    <div
+    <div data-animate-on-scroll
       className={`absolute top-[523.7px] left-[197.6px] w-[505.3px] h-[313.9px] z-[5] text-left text-xs-8 text-black font-clash-display ${className}`}
     >
       <div className="absolute top-[237.3px] left-[392.8px] bg-black w-[1.3px] h-[71.2px] z-[1]" />

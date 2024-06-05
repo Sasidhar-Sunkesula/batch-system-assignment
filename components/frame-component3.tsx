@@ -6,7 +6,7 @@ export type FrameComponent3Type = {
 
 const FrameComponent3: NextPage<FrameComponent3Type> = ({ className = "" }) => {
   return (
-    <header
+    <header data-animate-on-scroll
       className={`w-[1198px] flex flex-wrap items-center justify-between max-w-full text-left text-8xs-2 text-black font-plus-jakarta-sans ${className}`}
     >
       <div className=" flex flex-col md:flex-row items-center justify-between gap-[20px] max-w-full">

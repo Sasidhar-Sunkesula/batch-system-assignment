@@ -6,15 +6,29 @@ module.exports = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+        pop: {
+          "0%": { transform: "scale(0.95)" },
+          "100%": { transform: "scale(1)" },
+        },
+      },
+      animation: {
+        fadeIn: "fadeIn 1s ease-in-out",
+        pop: "pop 1s ease-in-out",
+      },
       colors: {
         white: "#fff",
         gray: {
-          "100": "#888b92",
-          "200": "#82848a",
-          "300": "#262626",
-          "400": "#191d2a",
-          "500": "rgba(0, 0, 0, 0.5)",
-          "600": "rgba(22, 22, 22, 0)",
+          100: "#888b92",
+          200: "#82848a",
+          300: "#262626",
+          400: "#191d2a",
+          500: "rgba(0, 0, 0, 0.5)",
+          600: "rgba(22, 22, 22, 0)",
         },
         black: "#000",
         darkslategray: "#333",

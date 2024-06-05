@@ -2,7 +2,7 @@ import BadgeComponent from "./group-component";
 
 export function Main() {
   return (
-    <main className="w-full h-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px]">
+    <main className="w-full  h-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px]">
       <div className="absolute top-[1123.7px] -right-32 w-[327px] h-[237.3px] flex items-center justify-center">
         <img
           className="w-full h-full object-contain absolute left-[-52px] top-[0px] [transform:scale(1.869)]"

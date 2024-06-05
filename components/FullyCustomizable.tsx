@@ -1,6 +1,6 @@
 export function FullyCustomizable() {
   return (
-    <div className="self-stretch flex flex-row items-start mq1050:items-center justify-center pt-0 pb-[179.7px] pr-0 pl-[432px] box-border max-w-full text-9xl mq750:box-border mq450:pb-[20px] mq450:box-border mq1050:pl-[10px] mq1050:box-border">
+    <div data-animate-on-scroll className="self-stretch flex flex-row items-start mq1050:items-center justify-center pt-0 pb-[179.7px] pr-0 pl-[432px] box-border max-w-full text-9xl mq750:box-border mq450:pb-[20px] mq450:box-border mq1050:pl-[10px] mq1050:box-border">
       <div className="w-[562px] mq1050:w-full flex flex-col items-start justify-start gap-[33px] max-w-full mq750:gap-[16px]">
         <div className="w-[388px] gap-x-3 flex flex-row items-center justify-start py-0 box-border max-w-full mq450:pl-5 mq450:pr-5 mq450:box-border">
           <img

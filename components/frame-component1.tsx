@@ -6,7 +6,7 @@ export type FrameComponent1Type = {
 
 const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
   return (
-    <div
+    <div data-animate-on-scroll
       className={`self-stretch flex flex-col justify-start pt-0 px-0 pb-[69px] box-border gap-[47.5px] max-w-full text-left text-lg text-black font-clash-display lg:pb-[45px] lg:box-border mq750:gap-[24px] mq750:pb-[29px] mq750:box-border ${className}`}
     >
       <div className="w-full flex flex-row flex-wrap items-center py-0 box-border max-w-full mq750:p-0 mq750:box-border">
@@ -65,7 +65,7 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
           </div>
         </div>
       </div>
-      <div className="self-stretch flex flex-row items-start justify-start gap-[50px] max-w-full  lg:flex-wrap mq750:gap-[25px]">
+      <div data-animate-on-scroll className="self-stretch flex flex-row items-start justify-start gap-[50px] max-w-full  lg:flex-wrap mq750:gap-[25px]">
         <div className="w-[470px] flex flex-row items-start justify-start relative min-w-[470px] max-w-full lg:flex-1 mq750:min-w-full">
           <div className="h-[719.5px] w-[719.5px] absolute !m-[0] top-[-639.5px] left-[-129px]">
             <div className="absolute top-[116.7px] left-[99px] w-[393px] h-[285.1px] flex items-center justify-center">
@@ -82,7 +82,7 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
               src="/star-2.svg"
             />
           </div>
-          <div className="flex-1 flex flex-col items-start justify-start pt-[80px] px-0 pb-0 box-border max-w-full">
+          <div data-animate-on-scroll className="flex-1 flex flex-col items-start justify-start pt-[80px] px-0 pb-0 box-border max-w-full">
             <div className="self-stretch flex flex-col items-start justify-start gap-[42px] max-w-full mq750:gap-[21px]">
               <div className="self-stretch flex flex-col mq1050:items-center items-start justify-start gap-[4px]">
                 <div className="relative text-tomato tracking-[0.16em] leading-[28px] uppercase font-medium z-[8]">
@@ -113,7 +113,7 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
             </p>
           </div>
         </div>
-        <div className="h-[719.5px] mq1050:h-[300px] flex-1 relative min-w-[467px] max-w-full text-gray-500 mq750:min-w-full">
+        <div data-animate-on-scroll className="h-[719.5px] mq1050:h-[300px] flex-1 relative min-w-[467px] max-w-full text-gray-500 mq750:min-w-full">
           <div className="absolute top-[324.2px] left-[121px] w-[327px] h-[237.3px] flex items-center justify-center">
             <img
               className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.869)]"
@@ -128,7 +128,7 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
               src="/group-35935@2x.png"
             />
           </div>
-          <div className="absolute top-[340.2px] mq1050:hidden left-[347px] shadow-[4px_4px_40px_rgba(0,_0,_0,_0.1)] rounded-lg bg-white w-[201px] flex flex-row items-start justify-start pt-[10.5px] px-2.5 pb-[10.4px] box-border gap-[12.3px] z-[11] text-mini-8 text-gray-400 font-nunito-sans">
+          <div data-animate-on-scroll className="absolute top-[340.2px] mq1050:hidden left-[347px] shadow-[4px_4px_40px_rgba(0,_0,_0,_0.1)] rounded-lg bg-white w-[201px] flex flex-row items-start justify-start pt-[10.5px] px-2.5 pb-[10.4px] box-border gap-[12.3px] z-[11] text-mini-8 text-gray-400 font-nunito-sans">
             <div className="h-[61.5px] w-[201px] relative shadow-[4px_4px_40px_rgba(0,_0,_0,_0.1)] rounded-lg bg-white hidden" />
             <img
               className="h-[40.6px] w-[40.6px] relative rounded-[12.29px] object-cover z-[1]"
@@ -160,7 +160,7 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
               alt=""
               src="/star-2.svg"
             />
-            <div className="w-full h-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px] max-w-full max-h-full z-[11] flex items-center justify-center">
+            <div data-animate-on-scroll className="w-full h-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px] max-w-full max-h-full z-[11] flex items-center justify-center">
               <img
                 className="w-full h-full overflow-hidden z-[11] object-contain absolute left-[0px] top-[20px] [transform:scale(1.057)]"
                 alt=""
@@ -173,7 +173,7 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
                 alt=""
                 src="/group-35932@2x.png"
               />
-              <div className="flex-1 [backdrop-filter:blur(27.89px)] rounded-2xl bg-black flex flex-col items-start justify-start pt-[15.1px] px-[17px] pb-[14.5px] gap-[70.3px] z-[12] mq450:gap-[35px]">
+              <div data-animate-on-scroll className="flex-1 [backdrop-filter:blur(27.89px)] rounded-2xl bg-black flex flex-col items-start justify-start pt-[15.1px] px-[17px] pb-[14.5px] gap-[70.3px] z-[12] mq450:gap-[35px]">
                 <div className="w-[260.1px] h-[159.3px] relative rounded-2xl bg-black hidden" />
                 <div className="self-stretch flex flex-row items-end justify-between gap-[20px]">
                   <div className="flex flex-row items-start justify-start gap-[1.1px]">

@@ -1,6 +1,6 @@
 export function FAQComponent() {
   return (
-    <div className="w-[1090px] mx-auto flex flex-col items-start justify-start pt-0 px-0 pb-10 box-border gap-[40px] max-w-full text-tomato mq750:gap-[20px]">
+    <div className="w-[1090px] animate-fadeIn animate-pop mx-auto flex flex-col items-start justify-start pt-0 px-0 pb-10 box-border gap-[40px] max-w-full text-tomato mq750:gap-[20px]">
       <div className="w-[497px] flex flex-col items-start justify-start gap-[4px] shrink-0 [debug_commit:bf4bc93] max-w-full">
         <div className="relative tracking-[0.16em] leading-[28px] uppercase font-medium inline-block min-w-[44px] z-[8]">
           faq
